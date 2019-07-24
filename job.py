@@ -55,13 +55,14 @@ qpe = QPE(qubit_op, state_in, iqft, num_time_slices, n_ancillae,
           expansion_order=2, shallow_circuit_concat=True)
 
 # backend
-backend = Aer.get_backend('qasm_simulator')
+#backend = Aer.get_backend('qasm_simulator')
 
 # IBM Q
-#from qiskit import IBMQ
-#provider0 = IBMQ.load_account()
+from qiskit import IBMQ
+provider0 = IBMQ.load_account()
 #large_enough_devices = IBMQ.backends(filters=lambda x: x.configuration().n_qubits > qubit_op.num_qubits and not x.configuration().simulator)
-#backend = provider0.get_backend('ibmq_16_melbourne')
+backend = provider0.get_backend('ibmq_16_melbourne')
+#backend = provider0.get_backend('ibmq_qasm_simulator')
 #ibmq_16_melbourne
 #ibmqx2
 #ibmqx4

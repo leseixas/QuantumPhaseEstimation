@@ -1,0 +1,6 @@
+The exact ground state energy is: -34.8865365791342 eV
+Number of qubits:  2
+Number of ancillae: 8
+Backend: ibmq_16_melbourne
+FAILURE: the 0-th qobj, job id: 5d389d4cfe9ca30018ebd7dd Terra job error: 'Invalid job state. The job should be DONE but it is JobStatus.ERROR'
+

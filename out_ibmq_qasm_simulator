@@ -1,0 +1,9 @@
+The exact ground state energy is: -34.8865365791342 eV
+Number of qubits:  2
+Number of ancillae: 8
+Backend: ibmq_qasm_simulator
+The ground state energy as computed by QPE is: -31.418262068418 eV
+...
+Difference: 3.4682745107162027
+{'translation': 1.679418014943752, 'stretch': 0.29772218444182064, 'top_measurement_label': '00101000', 'top_measurement_decimal': 0.15625, 'eigvals': [-1.1545998852738295], 'energy': -1.1545998852738295}
+Run time: 44.57 seconds
