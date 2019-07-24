@@ -1,0 +1,8 @@
+The exact ground state energy is: -1.8572750302023784
+Number of qubits:  2
+Number of ancillae: 12
+Backend: qasm_simulator
+The ground state energy as computed by QPE is: -1.8561405572597245
+...
+{'translation': 2.0404593994996865, 'stretch': 0.2450428565854328, 'top_measurement_label': '000010111001', 'top_measurement_decimal': 0.045166015625, 'eigvals': [-1.8561405572597245], 'energy': -1.8561405572597245}
+Run time: 44.72 seconds
