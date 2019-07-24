@@ -27,7 +27,7 @@ driver = PySCFDriver(atom='H .0 .0 .0; H .0 .0 {}'.format(distance),
                      unit=UnitsType.ANGSTROM, charge=0, spin=0, basis='sto3g')
 molecule = driver.run()
 
-qubit_mapping = 'jordan-wigner'
+qubit_mapping = 'jordan_wigner'
 fer_op = FermionicOperator(h1=molecule.one_body_integrals, h2=molecule.two_body_integrals)
 qubit_op = fer_op.mapping(map_type=qubit_mapping,threshold=1e-10).two_qubit_reduced_operator(2)
 
